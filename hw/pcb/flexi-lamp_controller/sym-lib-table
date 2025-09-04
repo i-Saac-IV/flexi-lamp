@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "flexi-lamp_symbols")(type "KiCad")(uri "${KIPRJMOD}/flexi-lamp_symbols.kicad_sym")(options "")(descr ""))
+)

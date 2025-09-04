@@ -1,0 +1,456 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3abdd430-1de9-4889-b6ed-043817e92c00")
+	(paper "A4")
+	(title_block
+		(title "Cool LED Array")
+		(date "2025-09-01")
+		(rev "RevA")
+		(company "Isaac Pawley")
+	)
+	(lib_symbols)
+	(junction
+		(at 123.19 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cda1996-45f9-4399-9e71-f586198114ca")
+	)
+	(junction
+		(at 123.19 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "798ce36d-fdb9-42aa-a20a-5acb81b52b7e")
+	)
+	(junction
+		(at 123.19 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8400343-b42e-4f2e-adde-3b2ccf53b28a")
+	)
+	(wire
+		(pts
+			(xy 123.19 76.2) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20caa205-5b33-48a8-95bc-053e97ab349e")
+	)
+	(wire
+		(pts
+			(xy 128.27 54.61) (xy 123.19 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2350f9c1-608c-48cd-bceb-8148d74d0109")
+	)
+	(wire
+		(pts
+			(xy 128.27 138.43) (xy 123.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3052ec59-0657-4aef-beed-1168cd58c2aa")
+	)
+	(wire
+		(pts
+			(xy 123.19 54.61) (xy 123.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1a6133-0ded-47d4-ade4-a14906a04dad")
+	)
+	(wire
+		(pts
+			(xy 123.19 97.79) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7785cbde-2191-4d6f-ad2b-06969a8870e6")
+	)
+	(wire
+		(pts
+			(xy 123.19 118.11) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b732c155-7eab-4faa-ba57-b82ce4fea97c")
+	)
+	(wire
+		(pts
+			(xy 128.27 76.2) (xy 123.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beace12f-f364-44f1-a5fe-c8582d600cad")
+	)
+	(wire
+		(pts
+			(xy 128.27 118.11) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9418bad-034a-4db4-95b0-c7180c2f14dd")
+	)
+	(wire
+		(pts
+			(xy 116.84 97.79) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a61c64-29ba-4e56-81e1-e670f5360a96")
+	)
+	(wire
+		(pts
+			(xy 123.19 138.43) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c7a818-5311-4a2e-a293-e113c497b9be")
+	)
+	(global_label "COOL_PWM"
+		(shape input)
+		(at 116.84 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "de638c6b-77d9-4c3c-a15a-6820fca36897")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.2793 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 112.395)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14a88ac4-d13f-4040-9714-3077f0120771")
+		(property "Sheetname" "LED Driver - Cool D"
+			(at 128.27 111.6834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led-driver.kicad_sch"
+			(at 128.27 124.4096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 128.27 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "PWM" input
+			(at 128.27 118.11 180)
+			(uuid "0678ba76-45d7-4109-955e-6d5089051fd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "flexi-lamp_controller"
+				(path "/b3a3d107-4553-49eb-a7c7-65551cf2372e/1fd0a908-6fe5-42cb-8058-a2cac5ad5abe"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 70.485)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b1a54c4-ebc7-418d-aef1-eca1dc195c67")
+		(property "Sheetname" "LED Driver - Cool B"
+			(at 128.27 69.7734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led-driver.kicad_sch"
+			(at 128.27 82.4996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 128.27 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "PWM" input
+			(at 128.27 76.2 180)
+			(uuid "dda54e81-2d9f-437e-82f2-7c8252fedfa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "flexi-lamp_controller"
+				(path "/b3a3d107-4553-49eb-a7c7-65551cf2372e/1fd0a908-6fe5-42cb-8058-a2cac5ad5abe"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 132.715)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "652f94fe-c8d3-49d2-821b-96da631b6240")
+		(property "Sheetname" "LED Driver - Cool E"
+			(at 128.27 132.0034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led-driver.kicad_sch"
+			(at 128.27 144.7296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 128.27 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "PWM" input
+			(at 128.27 138.43 180)
+			(uuid "55d83674-2638-4385-9656-0d853274b247")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "flexi-lamp_controller"
+				(path "/b3a3d107-4553-49eb-a7c7-65551cf2372e/1fd0a908-6fe5-42cb-8058-a2cac5ad5abe"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 92.075)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99c06c9e-c3bf-4dbb-adf7-dcaef68d4fd5")
+		(property "Sheetname" "LED Driver - Cool C"
+			(at 128.27 91.3634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led-driver.kicad_sch"
+			(at 128.27 104.0896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 128.27 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "PWM" input
+			(at 128.27 97.79 180)
+			(uuid "571719ba-83cf-4a41-89cf-013351d34554")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "flexi-lamp_controller"
+				(path "/b3a3d107-4553-49eb-a7c7-65551cf2372e/1fd0a908-6fe5-42cb-8058-a2cac5ad5abe"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 48.895)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a221c65c-a515-4be9-a354-f922ab4c6ed1")
+		(property "Sheetname" "LED Driver - Cool A"
+			(at 128.27 48.1834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led-driver.kicad_sch"
+			(at 128.27 60.9096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 128.27 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "PWM" input
+			(at 128.27 54.61 180)
+			(uuid "2bfc4829-9801-4553-9cbe-244521a37d62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "flexi-lamp_controller"
+				(path "/b3a3d107-4553-49eb-a7c7-65551cf2372e/1fd0a908-6fe5-42cb-8058-a2cac5ad5abe"
+					(page "15")
+				)
+			)
+		)
+	)
+)

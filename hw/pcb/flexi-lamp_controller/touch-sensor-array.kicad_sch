@@ -1,0 +1,50 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "57be7204-b438-4723-8f56-11dbb4f1b757")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 135.89 62.23)
+		(size 58.42 45.085)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0feb11cd-ab2f-4f0e-97b8-2b62fd9ecaf6")
+		(property "Sheetname" "Touch Sensor"
+			(at 135.89 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "touch-sensor.kicad_sch"
+			(at 135.89 107.8996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flexi-lamp_controller"
+				(path "/b3a3d107-4553-49eb-a7c7-65551cf2372e/a400f4d6-a305-4123-a14e-0f9d6228a58a"
+					(page "3")
+				)
+			)
+		)
+	)
+)
