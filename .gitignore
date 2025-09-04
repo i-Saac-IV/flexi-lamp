@@ -54,8 +54,30 @@ dkms.conf
 # debug information files
 *.dwo
 
-
-# PCB files
-_autosave*
+# KiCAD files
+*.kicad_sch-bak
+*.bak
+*.autosave
 *backups/
 *.lck
+*.kicad_prl
+
+# Cache files
+fp-info-cache
+
+# Netlist and temporary BOM exports
+*.xml
+*.net
+*.csv
+
+# Build / fabrication outputs
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.gz
+*.gbr
+*.drl
+*.pos
+*.pdf
+*.step
+*.stp
