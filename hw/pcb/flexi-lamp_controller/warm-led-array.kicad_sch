@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "3abdd430-1de9-4889-b6ed-043817e92c00")
 	(paper "A4")
 	(title_block
@@ -144,12 +144,14 @@
 		(uuid "a4c2b13c-827b-4ea4-8a66-6d5f686c8761")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 100.437 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -166,11 +168,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3e169e6b-dab0-4cbe-9c58-e466b7dab7d9")
 		(property "Sheetname" "LED Driver - Warm A"
 			(at 125.73 31.6734 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -180,6 +184,8 @@
 		)
 		(property "Sheetfile" "led-driver.kicad_sch"
 			(at 125.73 44.3996 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -189,6 +195,8 @@
 		)
 		(property "Field2" ""
 			(at 125.73 32.385 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,11 +234,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8415f81b-501a-472a-93b5-15e6c93c209a")
 		(property "Sheetname" "LED Driver - Warm D"
 			(at 125.73 95.1734 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -240,6 +250,8 @@
 		)
 		(property "Sheetfile" "led-driver.kicad_sch"
 			(at 125.73 107.8996 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -249,6 +261,8 @@
 		)
 		(property "Field2" ""
 			(at 125.73 95.885 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -286,11 +300,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a48cd0d7-a15e-4362-8449-7fcff4546fab")
 		(property "Sheetname" "LED Driver - Warm E"
 			(at 125.73 115.4934 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,6 +316,8 @@
 		)
 		(property "Sheetfile" "led-driver.kicad_sch"
 			(at 125.73 128.2196 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,6 +327,8 @@
 		)
 		(property "Field2" ""
 			(at 125.73 116.205 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,11 +366,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "cb31d5b2-f051-4a4b-89f4-7aca08d8fd99")
 		(property "Sheetname" "LED Driver - Warm B"
 			(at 125.73 53.2634 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -360,6 +382,8 @@
 		)
 		(property "Sheetfile" "led-driver.kicad_sch"
 			(at 125.73 65.9896 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -369,6 +393,8 @@
 		)
 		(property "Field2" ""
 			(at 125.73 53.975 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,11 +432,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d5aeb17c-26c5-4e65-b756-6b83e394475d")
 		(property "Sheetname" "LED Driver - Warm C"
 			(at 125.73 74.8534 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,6 +448,8 @@
 		)
 		(property "Sheetfile" "led-driver.kicad_sch"
 			(at 125.73 87.5796 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -429,6 +459,8 @@
 		)
 		(property "Field2" ""
 			(at 125.73 75.565 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
