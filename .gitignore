@@ -61,6 +61,7 @@ dkms.conf
 *backups/
 *.lck
 *.kicad_prl
+.history
 
 # Cache files
 fp-info-cache
